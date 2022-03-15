@@ -1,0 +1,21 @@
+{"frames": {
+
+"plan3_1":
+{
+	"frame": {"x":1,"y":1,"w":1191,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":20,"w":1191,"h":149},
+	"sourceSize": {"w":1280,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_others4.png",
+	"format": "RGBA8888",
+	"size": {"w":1193,"h":151},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:744afcfd20d6b2f00aa3ddbd801838f1:cae172a5294cc8b6b91cfa1bd41dfcc0:65324265a5326b30bc975f0ab5d824c0$"
+}
+}

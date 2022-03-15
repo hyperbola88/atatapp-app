@@ -1,0 +1,66 @@
+{"frames": {
+
+"plan1_2":
+{
+	"frame": {"x":1,"y":535,"w":1500,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":116},
+	"sourceSize": {"w":1500,"h":116},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan1_4":
+{
+	"frame": {"x":1,"y":942,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan2_2_ramps0":
+{
+	"frame": {"x":1,"y":1664,"w":1297,"h":287},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":1297,"h":287},
+	"sourceSize": {"w":1328,"h":287},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan2_2_ramps1":
+{
+	"frame": {"x":1,"y":653,"w":1484,"h":287},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":1484,"h":287},
+	"sourceSize": {"w":1493,"h":287},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan3_2":
+{
+	"frame": {"x":1,"y":288,"w":1920,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":46,"w":1920,"h":245},
+	"sourceSize": {"w":1920,"h":291},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan3_2_right":
+{
+	"frame": {"x":1,"y":1,"w":1920,"h":285},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":1920,"h":285},
+	"sourceSize": {"w":1920,"h":291},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_others0.png",
+	"format": "RGBA8888",
+	"size": {"w":1922,"h":1952},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:744afcfd20d6b2f00aa3ddbd801838f1:cae172a5294cc8b6b91cfa1bd41dfcc0:65324265a5326b30bc975f0ab5d824c0$"
+}
+}

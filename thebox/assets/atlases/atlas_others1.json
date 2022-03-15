@@ -1,0 +1,39 @@
+{"frames": {
+
+"plan1_3":
+{
+	"frame": {"x":1,"y":1,"w":1359,"h":580},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1359,"h":580},
+	"sourceSize": {"w":1359,"h":580},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan2_4":
+{
+	"frame": {"x":1,"y":1255,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan3_3_right":
+{
+	"frame": {"x":1,"y":583,"w":1356,"h":670},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1356,"h":670},
+	"sourceSize": {"w":1356,"h":670},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_others1.png",
+	"format": "RGBA8888",
+	"size": {"w":1361,"h":1976},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:744afcfd20d6b2f00aa3ddbd801838f1:cae172a5294cc8b6b91cfa1bd41dfcc0:65324265a5326b30bc975f0ab5d824c0$"
+}
+}

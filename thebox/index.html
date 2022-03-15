@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="fb:app_id" content="1791325687575245" />
+    <meta property="og:title" content="THE BOX" />
+    <meta property="og:type" content="website" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
+
+    
+    <title>THE BOX</title>
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter46976478 = new Ya.Metrika({
+                        id:46976478,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/46976478" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <script src="https://vk.com/js/api/openapi.js?150" type="text/javascript"></script>
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/leaders.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon-16.ico" sizes="16x16">
+    <link rel="shortcut icon" href="favicon-48.ico" sizes="48x48">
+</head>
+<body>
+<div id="wrapper">
+    <div id="loading"><img class="centering" src="assets/loading.gif"/></div>
+    <a href="#" id="close-button"><img src="assets/back-white.png"/></a>
+    <div id="auth-errors"></div>
+    <div id="auth-choice">
+        <div id="auth-text"></div>
+        <div id="login-icons">
+            <a href="javascript: SocialAuth.login('fb');">
+                <img src="assets/fb_300.png" class="socicon"/>
+            </a>
+            <a href="javascript: SocialAuth.login('vk');">
+                <img src="assets/vk_300.png" class="socicon"/>
+            </a>
+        </div>
+        <div id="logout-icons">
+            <a href="javascript: SocialAuth.post(Leaders.getShareText());">
+                <img src="assets/share_300.png" class="socicon"/>
+            </a>
+            <a href="javascript: SocialAuth.logout();">
+                <img src="assets/logout_300.png" class="socicon"/>
+            </a>
+        </div>
+    </div>
+    <div class="list-wrapper" data-node="list-wrapper">
+        <div id="title">TOP-100</div>
+        <ul class="list" data-node="list">
+        </ul>
+        <div class="list-item list-item--sticked" data-node="sticked-item">
+            <div class="list-item-content">
+                <div class="list-item-order"></div>
+                <div class="list-item-name"></div>
+                <div class="list-item-score"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="content"></div>
+<!--<div id="loader">Loading ...</div>-->
+<div id="orientation"><div id="text-orientation">Please rotate the device</div></div>
+<script type="text/javascript">
+
+    
+    var gameName = "sberstrah.min.js";
+    
+
+    //This all here is for cache busting;
+    function addScript(src, buster, callback) {
+        var s = document.createElement('script');
+        s.setAttribute('src', src + '?v=' + buster);
+        if (typeof callback === 'function') {
+            s.onload = callback;
+        }
+        document.body.appendChild(s);
+    }
+
+    addScript('version.js', Date.now(), function () {
+        addScript(gameName, version, function () {
+            /**
+             * Here we create the game
+             */
+            new Sberstrah.Game();
+        })
+    })
+</script>
+</body>
+</html>

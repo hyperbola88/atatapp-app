@@ -1,0 +1,57 @@
+{"frames": {
+
+"plan1_2_":
+{
+	"frame": {"x":1126,"y":1388,"w":847,"h":277},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":847,"h":277},
+	"sourceSize": {"w":847,"h":277},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan2_3_right":
+{
+	"frame": {"x":1,"y":1388,"w":1123,"h":655},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":1123,"h":655},
+	"sourceSize": {"w":1123,"h":660},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan3_2_":
+{
+	"frame": {"x":1126,"y":1667,"w":776,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":776,"h":196},
+	"sourceSize": {"w":776,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan3_3":
+{
+	"frame": {"x":1,"y":1,"w":1356,"h":663},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":1356,"h":663},
+	"sourceSize": {"w":1356,"h":670},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"plan3_4":
+{
+	"frame": {"x":1,"y":666,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_others2.png",
+	"format": "RGBA8888",
+	"size": {"w":1974,"h":2044},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:744afcfd20d6b2f00aa3ddbd801838f1:cae172a5294cc8b6b91cfa1bd41dfcc0:65324265a5326b30bc975f0ab5d824c0$"
+}
+}
