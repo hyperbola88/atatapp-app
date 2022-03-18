@@ -1,0 +1,36 @@
+.gameCard {
+   width: 15rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+}
+
+.gameImg {
+   width: 15rem;
+   animation: Scale 1s;
+}
+
+.gameTitle {
+   font-size: 2rem;
+   margin-bottom: .5rem;
+}
+
+.gameDescription {
+   font-size: 1.5rem;
+}
+
+
+@keyframes Scale {
+   0% {
+     opacity: 0;
+     transform: scale(0.8);
+   }
+ 
+   100% {
+     opacity: 1;
+     transform: scale(1);
+   }
+ }
+ 
