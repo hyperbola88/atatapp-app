@@ -26,7 +26,7 @@
 },
 "4.png":
 {
-	"frame": {"x":1,"y":285,"w":140,"h":140},
+	"frame": {"x":285,"y":1,"w":140,"h":140},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":140},
@@ -42,7 +42,7 @@
 },
 "6.png":
 {
-	"frame": {"x":285,"y":1,"w":140,"h":140},
+	"frame": {"x":143,"y":285,"w":140,"h":140},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":140},
@@ -50,7 +50,15 @@
 },
 "7.png":
 {
-	"frame": {"x":143,"y":285,"w":140,"h":140},
+	"frame": {"x":285,"y":143,"w":140,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":140},
+	"sourceSize": {"w":140,"h":140}
+},
+"250.png":
+{
+	"frame": {"x":1,"y":285,"w":140,"h":140},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":140},
@@ -58,7 +66,7 @@
 },
 "hero.png":
 {
-	"frame": {"x":285,"y":143,"w":100,"h":100},
+	"frame": {"x":285,"y":285,"w":100,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
@@ -66,7 +74,7 @@
 },
 "rocket1.png":
 {
-	"frame": {"x":285,"y":245,"w":93,"h":93},
+	"frame": {"x":377,"y":387,"w":93,"h":93},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":4,"w":93,"h":93},
@@ -74,8 +82,8 @@
 },
 "rocket2.png":
 {
-	"frame": {"x":285,"y":340,"w":90,"h":96},
-	"rotated": true,
+	"frame": {"x":285,"y":387,"w":90,"h":96},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":4,"w":90,"h":96},
 	"sourceSize": {"w":100,"h":100}
@@ -88,8 +96,8 @@
 	"version": "1.0",
 	"image": "base.png",
 	"format": "RGBA8888",
-	"size": {"w":426,"h":431},
+	"size": {"w":471,"h":484},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:6865713a46b981e95f0ba3d0e3514f8e:d053562667569cb59343ee9f016d0524:7232e5c4564c48ce7821741e80f218b0$"
+	"smartupdate": "$TexturePacker:SmartUpdate:cc844ea155df9eec0a1ecfc1f6086259:48c08d94bd0f767b41ea0394fcc40100:7232e5c4564c48ce7821741e80f218b0$"
 }
 }
