@@ -1,6 +1,10 @@
+import classes from './Footer.module.css';
+
 const Footer = () => {
    return (
-      <div>Footer</div>
+      <div className={classes.footer}>
+         Copyright &copy; 2022 Atatapp. All rights resereved
+      </div>
    )
 };
 

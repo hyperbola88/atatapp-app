@@ -10,6 +10,7 @@
 .gameImg {
    width: 15rem;
    animation: Scale 1s;
+   transition: all .5s;
 }
 
 .gameTitle {
@@ -20,6 +21,10 @@
 .gameDescription {
    font-size: 1.5rem;
 }
+
+.gameCard:hover .gameImg {
+   transform: scale(1.1);
+ }
 
 
 @keyframes Scale {
@@ -33,4 +38,36 @@
      transform: scale(1);
    }
  }
+
+ @media(max-width: 900px){
+   .gameCard {
+      width: 20rem;
+      margin-bottom: 3rem;
+   }
+
+   .gameImg {
+      width: 20rem
+   }
+
+   .gameTitle {
+      margin-bottom: 0;
+   }
+}
+
+ @media(max-width: 600px){
+    .gameCard {
+       width: 100%;
+       margin-bottom: 3rem;
+    }
+
+    .gameImg {
+       width: 20rem
+    }
+
+    .gameTitle {
+       margin-bottom: 0;
+    }
+  
+}
+
  
