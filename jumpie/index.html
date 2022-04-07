@@ -10,7 +10,6 @@
     
 
     <link rel="stylesheet" href="assets/css/app.css" type="text/css"/>
-    <script src="https://connect.facebook.net/en_US/fbinstant.6.0.js"></script>
 </head>
 <body>
 <div id="content"></div>
@@ -30,12 +29,9 @@
         }
         document.body.appendChild(s);
     }
-    FBInstant.initializeAsync()
-        .then(function() {
-            addScript(gameName, '0.1', function () {
-                new Jumpie.Game();
-            });
-        });
+    addScript(gameName, '0.1', function () {
+        new Jumpie.Game();
+    });
 </script>
 
 </body>
