@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build _static && copyfiles \"./match/**\" ./_static/ && copyfiles \"./thebox/**\" ./_static/",
+    "build": "react-scripts build && mv build _static && copyfiles \"./match/**\" ./_static/ && copyfiles \"./thebox/**\" ./_static/ && copyfiles \"./jumpie/**\" ./_static/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
