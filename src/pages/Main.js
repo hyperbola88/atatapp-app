@@ -10,6 +10,11 @@ import games from "../store/data";
 
 
 const Main = () => {
+
+  const gameIntros = [];
+  for (let i = 0; i < 3; i++) {
+    gameIntros.push(<GameIntro title={games[i].title} description={games[i].description} navigateTo={'/games'}/>)
+  }
    
   return (
     <Fragment>
@@ -40,9 +45,7 @@ const Main = () => {
       <div className={classes.section}>
         <div className={classes.sectionTitle}> <span className={classes.line}>&#8212;</span> Games</div>
         <div className={classes.games}>
-          <GameIntro title={games[0].title} description={games[0].description} navigateTo={'/games'}/>
-          <GameIntro title={games[1].title} description={games[1].description} navigateTo={'/games'}/>
-          <GameIntro title={games[2].title} description={games[2].description} navigateTo={'/games'}/>
+          {gameIntros}
         </div>
         
           <Button navigateTo={'/games'}>More games!</Button>
