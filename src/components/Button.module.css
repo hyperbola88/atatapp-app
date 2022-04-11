@@ -7,7 +7,7 @@
   font-family: inherit;
   font-size: 2rem;
   padding: 2rem 0px;
-  width: 30rem;
+  width: 25rem;
   border-radius: 1.5rem;
   overflow: hidden;
   background-color: rgba(203, 56, 6, 0.8);
@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  right: 10%;
+  left: 70%;
   top: 0.2rem;
   opacity: 0;
   height: 100%;
@@ -45,4 +45,17 @@
    opacity: 1;
     text-indent: 0px;
 }
+
+@media(max-width: 600px){
+  .button {
+    width: 100%;
+  }
+
+  .button::before {
+    left: 60%;
+  }
+}
+
+
+
 

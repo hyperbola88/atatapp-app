@@ -1,5 +1,6 @@
 import { Fragment } from "react/cjs/react.production.min";
 import GameCard from "../components/GameCard";
+import games from "../store/data";
 import classes from "./Games.module.css";
 
 const Games = () => {
@@ -11,7 +12,10 @@ const Games = () => {
             <span className={classes.line}>&#8212;</span> Our games
           </h1>
           <div className={classes.games}>
-             <GameCard />
+              {games.map(game => (
+                 <GameCard title={game.title} description={game.descriptionFull} link={game.link}/>
+              ))}
+            
           </div>
         </div>
       </div>
