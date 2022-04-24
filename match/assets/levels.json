@@ -1,0 +1,67 @@
+{
+    "levels": [
+        {
+            "blocks": 2,
+            "startAmount": 30,
+            "time": 7000,
+            "lines": 1,
+            "boomMeter": 25,
+            "bonuses": [2, 3],
+            "obstacles": []
+        }, 
+        {
+            "blocks": 3,
+            "startAmount": 30,
+            "time": 2800,
+            "lines": 1,
+            "boomMeter": 25,
+            "bonuses": [2, 3],
+            "obstacles": []
+        }, 
+        {
+            "blocks": 4,
+            "startAmount": 70,
+            "time": 700,
+            "lines": 1,
+            "boomMeter": 25,
+            "bonuses": [2, 3],
+            "obstacles": []
+        }, 
+        {
+            "blocks": 5,
+            "startAmount": 70,
+            "time": 1400,
+            "lines": 2,
+            "boomMeter": 35,
+            "bonuses": [2, 3],
+            "obstacles": []
+        }, 
+        {
+            "blocks": 6,
+            "startAmount": 80,
+            "time": 2100,
+            "lines": 3,
+            "boomMeter": 35,
+            "bonuses": [2, 3],
+            "obstacles": []
+        }, 
+        {
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 40,
+            "bonuses": [2, 3],
+            "obstacles": []
+        }, 
+        {
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2500,
+            "lines": 5,
+            "boomMeter": 30,
+            "bonuses": [2, 3],
+            "obstacles": []
+        }
+    ]
+}
