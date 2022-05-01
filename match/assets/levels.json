@@ -15,7 +15,7 @@
             "time": 2800,
             "lines": 1,
             "boomMeter": 5,
-            "bonuses": [3],
+            "bonuses": [2],
             "obstacles": []
         }, 
         {
@@ -24,7 +24,7 @@
             "time": 700,
             "lines": 1,
             "boomMeter": 10,
-            "bonuses": [2],
+            "bonuses": [1],
             "obstacles": []
         }, 
         {
@@ -33,7 +33,7 @@
             "time": 1400,
             "lines": 2,
             "boomMeter": 20,
-            "bonuses": [1,2,3],
+            "bonuses": [2,3,4],
             "obstacles": []
         }, 
         {
@@ -42,7 +42,7 @@
             "time": 2100,
             "lines": 3,
             "boomMeter": 35,
-            "bonuses": [1,2,3],
+            "bonuses": [1,2,3,4],
             "obstacles": []
         }, 
         {
@@ -51,7 +51,7 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 15,
-            "bonuses": [1,2,3],
+            "bonuses": [1,2,3,4],
             "obstacles": []
         }, 
         {
@@ -60,7 +60,7 @@
             "time": 2500,
             "lines": 5,
             "boomMeter": 15,
-            "bonuses": [1,2,3],
+            "bonuses": [1,2,3,4],
             "obstacles": []
         }
     ]
