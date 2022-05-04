@@ -1,6 +1,17 @@
 {
+    "messages": [
+        "Are you here?",
+        "Good. Waiting for you.",
+        "It was cool. Thanks.",
+        "I wish I could...",
+        "Itz a trap!",
+        "Wanna smoke?",
+        "Did you eat?"
+    ],
     "levels": [
         {
+            "name": "Polly C.",
+            "icon": "assets/images/player0.jpg",
             "blocks": 2,
             "startAmount": 30,
             "time": 7000,
@@ -10,6 +21,8 @@
             "obstacles": []
         }, 
         {
+            "name": "Vanessa F.",
+            "icon": "assets/images/player1.jpg",
             "blocks": 3,
             "startAmount": 70,
             "time": 2800,
@@ -19,6 +32,8 @@
             "obstacles": []
         }, 
         {
+            "name": "Jimmy The God",
+            "icon": "assets/images/player2.jpg",
             "blocks": 4,
             "startAmount": 70,
             "time": 700,
@@ -28,6 +43,8 @@
             "obstacles": []
         }, 
         {
+            "name": "Molly",
+            "icon": "assets/images/player3.jpg",
             "blocks": 5,
             "startAmount": 70,
             "time": 1400,
@@ -37,6 +54,8 @@
             "obstacles": []
         }, 
         {
+            "name": "Denis",
+            "icon": "assets/images/player4.jpg",
             "blocks": 6,
             "startAmount": 80,
             "time": 2100,
@@ -46,6 +65,8 @@
             "obstacles": []
         }, 
         {
+            "name": "Winston",
+            "icon": "assets/images/player5.jpg",
             "blocks": 7,
             "startAmount": 80,
             "time": 2800,
@@ -55,10 +76,78 @@
             "obstacles": []
         }, 
         {
+            "name": "Mom",
+            "icon": "assets/images/player6.jpg",
             "blocks": 7,
             "startAmount": 90,
             "time": 2500,
             "lines": 5,
+            "boomMeter": 15,
+            "bonuses": [1,2,3,4],
+            "obstacles": []
+        },
+        {
+            "name": "Dad",
+            "icon": "assets/images/player7.jpg",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3,4],
+            "obstacles": []
+        }, 
+        {
+            "name": "Uncle Tom",
+            "icon": "assets/images/player8.jpg",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3,4],
+            "obstacles": []
+        }, 
+        {
+            "name": "Vincent W.",
+            "icon": "assets/images/player9.jpg",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3,4],
+            "obstacles": []
+        }, 
+        {
+            "name": "Sheldon",
+            "icon": "assets/images/player10.jpg",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3,4],
+            "obstacles": []
+        }, 
+        {
+            "name": "Kelly G.",
+            "icon": "assets/images/player11.jpg",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3,4],
+            "obstacles": []
+        }, 
+        {
+            "name": "Super Dude",
+            "icon": "assets/images/player12.jpg",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3,4],
             "obstacles": []
