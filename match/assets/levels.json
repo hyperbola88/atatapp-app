@@ -1,13 +1,4 @@
 {
-    "messages": [
-        "Are you here?",
-        "Good. Waiting for you.",
-        "It was cool. Thanks.",
-        "I wish I could...",
-        "Itz a trap!",
-        "Wanna smoke?",
-        "Did you eat?"
-    ],
     "levels": [
         {
             "name": "Finish tutorial",
@@ -17,7 +8,8 @@
             "lines": 1,
             "boomMeter": 500,
             "bonuses": [],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,100,500]
         }, 
         {
             "name": "Play it easy",
@@ -27,7 +19,8 @@
             "lines": 1,
             "boomMeter": 1000,
             "bonuses": [],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [100,300,600]
         }, 
         {
             "name": "Still easy",
@@ -37,7 +30,8 @@
             "lines": 1,
             "boomMeter": 10,
             "bonuses": [1],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [200,700,2000]
         }, 
         {
             "name": "Probably some troubles",
@@ -52,7 +46,8 @@
                     "type": 2,
                     "position": [0, -150]
                 }
-            ]
+            ],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "You still can do it",
@@ -68,7 +63,8 @@
                     "position": [0, -150],
                     "lives": 3
                 }
-            ]
+            ],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "Crazyness",
@@ -78,7 +74,8 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "If you beat this you're great",
@@ -88,7 +85,8 @@
             "lines": 5,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         },
         {
             "name": "Oh my God!",
@@ -98,7 +96,8 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "No No No",
@@ -108,7 +107,8 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "Yes, it's hard",
@@ -118,7 +118,8 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "A little bit easier",
@@ -128,7 +129,8 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "Too much",
@@ -138,7 +140,8 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         }, 
         {
             "name": "Save your balls",
@@ -148,7 +151,8 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [],
+            "starsConditions": [10,50,100]
         }
     ]
 }
