@@ -41,23 +41,34 @@
         }, 
         {
             "name": "Probably some troubles",
-            "blocks": 5,
-            "startAmount": 70,
+            "blocks": 4,
+            "startAmount": 50,
             "time": 1400,
             "lines": 2,
-            "boomMeter": 20,
-            "bonuses": [2],
-            "obstacles": []
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [0, -150]
+                }
+            ]
         }, 
         {
             "name": "You still can do it",
             "blocks": 6,
-            "startAmount": 80,
+            "startAmount": 70,
             "time": 2100,
             "lines": 3,
             "boomMeter": 35,
             "bonuses": [1,2,3],
-            "obstacles": []
+            "obstacles": [
+                {
+                    "type": 1,
+                    "position": [0, -150],
+                    "lives": 3
+                }
+            ]
         }, 
         {
             "name": "Crazyness",
