@@ -13,11 +13,12 @@ body, html {
     font-size: 12px;
     font-weight: normal;
     color: #ccc;
+    background-color: #bbd3e4;
 }
 .preloader {
     width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #bbd3e4;
 }
 #loader {
     -webkit-animation: rotation 2s linear infinite;
