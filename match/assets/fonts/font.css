@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'FontsFree-Net-AmericanTypewriterBold';
+    src:url('FontsFree-Net-AmericanTypewriterBold.woff') format('woff'),
+        url('FontsFree-Net-AmericanTypewriterBold.woff2') format('woff2'),
+        url('FontsFree-Net-AmericanTypewriterBold.svg#FontsFree-Net-AmericanTypewriterBold') format('svg'),
+        url('FontsFree-Net-AmericanTypewriterBold.eot'),
+        url('FontsFree-Net-AmericanTypewriterBold.eot?#iefix') format('embedded-opentype'),
+        url('FontsFree-Net-AmericanTypewriterBold.ttf') format('truetype');
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
