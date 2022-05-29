@@ -9,31 +9,31 @@
             "boomMeter": 500,
             "bonuses": [],
             "obstacles": [],
-            "starsConditions": [10,100,500],
+            "starsConditions": [1,100,500],
             "iaps": false
         }, 
         {
             "name": "Play it easy",
-            "blocks": 3,
-            "startAmount": 70,
+            "blocks": 2,
+            "startAmount": 100,
             "time": 500,
             "lines": 1,
             "boomMeter": 1000,
             "bonuses": [],
             "obstacles": [],
-            "starsConditions": [100,300,600],
+            "starsConditions": [1,100,300],
             "iaps": false
         }, 
         {
             "name": "Still easy",
-            "blocks": 4,
+            "blocks": 3,
             "startAmount": 70,
             "time": 700,
             "lines": 1,
             "boomMeter": 10,
             "bonuses": [1],
             "obstacles": [],
-            "starsConditions": [200,700,2000],
+            "starsConditions": [10,100,500],
             "iaps": false
         }, 
         {
