@@ -72,7 +72,45 @@
             "iaps": true
         }, 
         {
-            "name": "Crazyness",
+            "name": "Now we are talking",
+            "blocks": 6,
+            "startAmount": 60,
+            "time": 2800,
+            "lines": 2,
+            "boomMeter": 20,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 1,
+                    "position": [-200, -200],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [-100, -150],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [0, -100],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [100, -150],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [200, -200],
+                    "lives": 1
+                }
+            ],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        }, 
+        {
+            "name": "All Seven",
             "blocks": 7,
             "startAmount": 80,
             "time": 2800,
@@ -85,13 +123,30 @@
         }, 
         {
             "name": "If you beat this you're great",
-            "blocks": 7,
-            "startAmount": 90,
-            "time": 2500,
-            "lines": 5,
+            "blocks": 5,
+            "startAmount": 80,
+            "time": 3000,
+            "lines": 3,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": [],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [-290, -100]
+                },
+                {
+                    "type": 2,
+                    "position": [-190, -100]
+                },
+                {
+                    "type": 2,
+                    "position": [190, -100]
+                },
+                {
+                    "type": 2,
+                    "position": [290, -100]
+                }
+            ],
             "starsConditions": [10,50,100],
             "iaps": true
         },
@@ -127,7 +182,23 @@
             "lines": 4,
             "boomMeter": 15,
             "bonuses": [1,2,3],
-            "obstacles": [],
+            "obstacles": [
+                {
+                    "type": 1,
+                    "position": [-280, -150],
+                    "lives": 3
+                },
+                {
+                    "type": 1,
+                    "position": [280, -150],
+                    "lives": 3
+                },
+                {
+                    "type": 1,
+                    "position": [0, -250],
+                    "lives": 3
+                }
+            ],
             "starsConditions": [10,50,100],
             "iaps": true
         }, 
