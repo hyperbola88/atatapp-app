@@ -37,6 +37,18 @@
             "iaps": false
         }, 
         {
+            "name": "Practice, Practice, Practice",
+            "blocks": 3,
+            "startAmount": 70,
+            "time": 1000,
+            "lines": 1,
+            "boomMeter": 15,
+            "bonuses": [1,2],
+            "obstacles": [],
+            "starsConditions": [10,100,800],
+            "iaps": false
+        }, 
+        {
             "name": "Probably some troubles",
             "blocks": 4,
             "startAmount": 50,
@@ -50,15 +62,36 @@
                     "position": [0, -150]
                 }
             ],
-            "starsConditions": [10,50,100],
+            "starsConditions": [10,100,1000],
+            "iaps": true
+        }, 
+        {
+            "name": "Still tired?",
+            "blocks": 4,
+            "startAmount": 80,
+            "time": 1700,
+            "lines": 2,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [-200, 0]
+                },
+                {
+                    "type": 2,
+                    "position": [200, 0]
+                }
+            ],
+            "starsConditions": [10,200,1100],
             "iaps": true
         }, 
         {
             "name": "You still can do it",
-            "blocks": 6,
+            "blocks": 5,
             "startAmount": 70,
             "time": 2100,
-            "lines": 3,
+            "lines": 2,
             "boomMeter": 35,
             "bonuses": [1,2,3],
             "obstacles": [
@@ -68,12 +101,12 @@
                     "lives": 3
                 }
             ],
-            "starsConditions": [10,50,100],
+            "starsConditions": [10,500,1000],
             "iaps": true
         }, 
         {
             "name": "Now we are talking",
-            "blocks": 6,
+            "blocks": 5,
             "startAmount": 60,
             "time": 2800,
             "lines": 2,
@@ -106,19 +139,43 @@
                     "lives": 1
                 }
             ],
-            "starsConditions": [10,50,100],
+            "starsConditions": [10,550,1200],
             "iaps": true
-        }, 
+        },
+        {
+            "name": "Nice try",
+            "blocks": 6,
+            "startAmount": 80,
+            "time": 2000,
+            "lines": 3,
+            "boomMeter": 25,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,800,1500],
+            "iaps": true
+        },
+        {
+            "name": "No Bonuses",
+            "blocks": 6,
+            "startAmount": 80,
+            "time": 2200,
+            "lines": 3,
+            "boomMeter": 25,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,800,2500],
+            "iaps": false
+        },
         {
             "name": "All Seven",
             "blocks": 7,
             "startAmount": 80,
-            "time": 2800,
+            "time": 2500,
             "lines": 4,
-            "boomMeter": 15,
+            "boomMeter": 20,
             "bonuses": [1,2,3],
             "obstacles": [],
-            "starsConditions": [10,50,100],
+            "starsConditions": [10,500,2000],
             "iaps": true
         }, 
         {
