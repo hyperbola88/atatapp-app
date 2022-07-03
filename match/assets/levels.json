@@ -98,7 +98,7 @@
                     "position": [0, -150]
                 }
             ],
-            "starsConditions": [10,100,1000],
+            "starsConditions": [10,100,400],
             "iaps": true
         }, 
         {
@@ -116,7 +116,7 @@
                     "lives": 3
                 }
             ],
-            "starsConditions": [10,500,1000],
+            "starsConditions": [10,200,500],
             "iaps": true
         },
         {
@@ -133,7 +133,7 @@
                     "position": [0, -150]
                 }
             ],
-            "starsConditions": [10,100,1000],
+            "starsConditions": [10,100,400],
             "iaps": true
         }, 
         {
