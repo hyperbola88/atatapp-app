@@ -1,0 +1,41 @@
+
+ninja_spine.png
+size: 135,46
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ninja_body
+  rotate: true
+  xy: 0, 7
+  size: 39, 98
+  orig: 40, 98
+  offset: 1, 0
+  index: -1
+ninja_hand1
+  rotate: false
+  xy: 98, 24
+  size: 26, 22
+  orig: 26, 22
+  offset: 0, 0
+  index: -1
+ninja_hand2
+  rotate: true
+  xy: 105, 9
+  size: 15, 26
+  orig: 15, 26
+  offset: 0, 0
+  index: -1
+ninja_leg
+  rotate: true
+  xy: 124, 30
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+stick
+  rotate: true
+  xy: 0, 0
+  size: 7, 105
+  orig: 7, 105
+  offset: 0, 0
+  index: -1
