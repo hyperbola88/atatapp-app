@@ -1,0 +1,41 @@
+
+jelly.png
+size: 124,87
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jelly_body
+  rotate: false
+  xy: 0, 25
+  size: 112, 62
+  orig: 112, 62
+  offset: 0, 0
+  index: -1
+jelly_leg0
+  rotate: false
+  xy: 112, 7
+  size: 11, 80
+  orig: 11, 80
+  offset: 0, 0
+  index: -1
+jelly_leg1
+  rotate: true
+  xy: 0, 2
+  size: 9, 65
+  orig: 9, 65
+  offset: 0, 0
+  index: -1
+jelly_leg2
+  rotate: true
+  xy: 65, 0
+  size: 7, 59
+  orig: 7, 59
+  offset: 0, 0
+  index: -1
+jelly_leg4
+  rotate: true
+  xy: 0, 11
+  size: 14, 94
+  orig: 14, 94
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+fish0.png
+size: 85,75
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fish0_body
+  rotate: false
+  xy: 0, 19
+  size: 67, 56
+  orig: 67, 56
+  offset: 0, 0
+  index: -1
+fish0_eye0
+  rotate: false
+  xy: 67, 28
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+fish0_eye0_1
+  rotate: false
+  xy: 53, 2
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+fish0_eye1
+  rotate: false
+  xy: 70, 13
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+fish0_eye1_1
+  rotate: false
+  xy: 70, 0
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+fish0_pl0
+  rotate: false
+  xy: 0, 4
+  size: 34, 15
+  orig: 34, 15
+  offset: 0, 0
+  index: -1
+fish0_pl1
+  rotate: false
+  xy: 67, 46
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+fish0_pl2
+  rotate: true
+  xy: 34, 3
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1

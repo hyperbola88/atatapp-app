@@ -1,0 +1,1 @@
+{"skeleton":{"hash":"gLbNIK5WF25rWDFadhcnh6dInYs","spine":"3.8.99","x":-24.5,"y":-38,"width":49,"height":76,"images":"./Images/","audio":""},"bones":[{"name":"root"}],"slots":[{"name":"enemy0","bone":"root","attachment":"enemy0"}],"skins":[{"name":"default","attachments":{"enemy0":{"enemy0":{"scaleX":0.7,"scaleY":0.8,"width":70,"height":95}}}}],"animations":{"sink":{}}}
