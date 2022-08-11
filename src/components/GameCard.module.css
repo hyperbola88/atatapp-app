@@ -1,6 +1,6 @@
 .card {
-  width: 40%;
-  height: 70vh;
+  width: 47%;
+  height: 50vh;
   margin-bottom: 6rem;
   animation-name: moveUp;
   animation-duration: 1s;
@@ -18,7 +18,7 @@
   border-radius: 20px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position:center;
   overflow: hidden;
 }
 
@@ -69,7 +69,6 @@
 
 @media(max-width: 900px){
   .card {
-    width: 47%;
     height: 50vh;
   }
 }

@@ -1,21 +1,45 @@
 const games = [
   {
-    title: "game0",
+    icon: "game0",
+    title: "Crab & Fish",
     description: "Some description goes here",
     descriptionFull: "Function is a predicate, to test each element of the array. Return a value that coerces to true to keep the element, or to false otherwise.",
-    link: "/"
+    link: "https://poki.com/en/g/crab-and-fish"
   },
   {
-   title: "game1",
+   icon: "game1",
+   title: "Sly Kittens",
    description: "Some description goes here",
    descriptionFull: "Function is a predicate, to test each element of the array. Return a value that coerces to true to keep the element, or to false otherwise.",
-   link: "/"
+   link: "https://apps.apple.com/us/app/sly-kittens/id1130268879"
  },
  {
-   title: "game2",
+   icon: "game2",
+   title: "InstaGirls",
    description: "Some description goes here",
    descriptionFull: "Function is a predicate, to test each element of the array. Return a value that coerces to true to keep the element, or to false otherwise.",
-   link: "/"
+   link: "https://kizi.com/games/instagirls-dress-up"
+ },
+ {
+   icon: "game3",
+   title: "Fruit Connect 2",
+   description: "Some description goes here",
+   descriptionFull: "Function is a predicate, to test each element of the array. Return a value that coerces to true to keep the element, or to false otherwise.",
+   link: "https://kizi.com/games/fruit-connect-2"
+ },
+ {
+   icon: "game4",
+   title: "Make Me 10",
+   description: "Some description goes here",
+   descriptionFull: "Function is a predicate, to test each element of the array. Return a value that coerces to true to keep the element, or to false otherwise.",
+   link: "https://keygames.com/make-me-10-game/"
+ },
+ {
+   icon: "game5",
+   title: "Beaver Bubbles",
+   description: "Some description goes here",
+   descriptionFull: "Function is a predicate, to test each element of the array. Return a value that coerces to true to keep the element, or to false otherwise.",
+   link: "https://kizi.com/games/beaver-bubbles"
  }
 ];
 

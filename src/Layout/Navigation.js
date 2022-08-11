@@ -23,12 +23,10 @@ const Navigation = () => {
         className={classes.burger}/>}
       <div className={burgerState ? `${classes.navbar} ${classes.openBurger}` : classes.navbar}>
         <NavLink onClick={burgerHandler}
-          className={({ isActive }) =>
-            isActive ? `${classes.active} ${classes.logo}` : classes.logo
-          }
+          className={classes.logo}
           to="/"
         >
-          Logo
+        <img src={process.env.PUBLIC_URL+"/atatapp_logo.svg"} loading="lazy" width="40" alt=""></img>
         </NavLink>
         <div className={classes.links}>
           <ul className={burgerState ? classes.openBurger : ''}>

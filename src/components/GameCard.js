@@ -8,7 +8,7 @@ const GameCard = (props) => {
       <div
         className={classes.image}
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}/images/${props.title}big.png)`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/images/${props.icon}big.png)`,
         }}
       >
         <div className={classes.description}>

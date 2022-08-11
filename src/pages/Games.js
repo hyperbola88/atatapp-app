@@ -13,7 +13,7 @@ const Games = () => {
           </h1>
           <div className={classes.games}>
               {games.map(game => (
-                 <GameCard title={game.title} description={game.descriptionFull} link={game.link}/>
+                 <GameCard icon={game.icon} title={game.title} description={game.descriptionFull} link={game.link}/>
               ))}
             
           </div>

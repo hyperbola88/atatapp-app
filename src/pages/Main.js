@@ -13,7 +13,7 @@ const Main = () => {
 
   const gameIntros = [];
   for (let i = 0; i < 3; i++) {
-    gameIntros.push(<GameIntro title={games[i].title} description={games[i].description} navigateTo={'/games'}/>)
+    gameIntros.push(<GameIntro icon ={games[i].icon} title={games[i].title} description={games[i].description} navigateTo={games[i].link}/>)
   }
    
   return (
@@ -21,12 +21,11 @@ const Main = () => {
       <div className={classes.wrapper}>
         <div className={classes.header}>
           <div className={classes.infobox}>
-            <h1 className={classes.infoboxH1}>Atatapp </h1>
+            <h1 className={classes.infoboxH1}>Atatapp Games</h1>
             <div className={classes.infoboxText}>
-              an independent mobile game studio
+              cross-platform HTML5 games for everybody!
             </div>
           </div>
-          <Button navigateTo={'/'}>Button here? </Button>
         </div>
       </div>
       <div className={classes.section}>
