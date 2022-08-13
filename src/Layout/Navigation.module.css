@@ -12,7 +12,9 @@
   z-index: 1;
 
 }
-
+.logo {
+  width: 40px
+}
 ul {
   list-style: none;
   margin: 0;
@@ -99,6 +101,9 @@ a {
   .burger {
     display: block;
     z-index: 1000;
+  }
+  .logo {
+    width: 100px;
   }
 
 }

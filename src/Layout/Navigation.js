@@ -26,7 +26,7 @@ const Navigation = () => {
           className={classes.logo}
           to="/"
         >
-        <img src={process.env.PUBLIC_URL+"/atatapp_logo.svg"} loading="lazy" width="40" alt=""></img>
+        <img src={process.env.PUBLIC_URL+"/atatapp_logo.svg"} loading="lazy" className = {classes.logo} alt=""></img>
         </NavLink>
         <div className={classes.links}>
           <ul className={burgerState ? classes.openBurger : ''}>
