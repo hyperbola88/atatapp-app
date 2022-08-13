@@ -1,0 +1,73 @@
+.gameCard {
+   width: 15rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+}
+
+.gameImg {
+   width: 15rem;
+   animation: Scale 1s;
+   transition: all .5s;
+}
+
+.gameTitle {
+   font-size: 2rem;
+   margin-bottom: .5rem;
+}
+
+.gameDescription {
+   font-size: 1.5rem;
+}
+
+.gameCard:hover .gameImg {
+   transform: scale(1.1);
+ }
+
+
+@keyframes Scale {
+   0% {
+     opacity: 0;
+     transform: scale(0.8);
+   }
+ 
+   100% {
+     opacity: 1;
+     transform: scale(1);
+   }
+ }
+
+ @media(max-width: 900px){
+   .gameCard {
+      width: 20rem;
+      margin-bottom: 3rem;
+   }
+
+   .gameImg {
+      width: 20rem
+   }
+
+   .gameTitle {
+      margin-bottom: 0;
+   }
+}
+
+ @media(max-width: 600px){
+    .gameCard {
+       width: 100%;
+       margin-bottom: 3rem;
+    }
+
+    .gameImg {
+       width: 20rem
+    }
+
+    .gameTitle {
+       margin-bottom: 0;
+    }
+  
+}
+
+ 

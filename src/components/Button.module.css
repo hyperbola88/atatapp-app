@@ -1,0 +1,61 @@
+.button {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 2rem 0px;
+  width: 25rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-color: rgba(203, 56, 6, 0.8);
+  color: white;
+  transition: all 0.3s;
+}
+
+.button::before {
+  content: '\25BA';
+  font-family: inherit;
+  font-size: 1.5rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 70%;
+  top: 0.2rem;
+  opacity: 0;
+  height: 100%;
+  width: 60px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  text-indent: -20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+}
+
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.button:hover::before {
+   opacity: 1;
+    text-indent: 0px;
+}
+
+@media(max-width: 600px){
+  .button {
+    width: 100%;
+  }
+
+  .button::before {
+    left: 60%;
+  }
+}
+
+
+
+

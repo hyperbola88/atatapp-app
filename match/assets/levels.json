@@ -1,0 +1,360 @@
+{
+    "levels": [
+        {
+            "name": "Finish tutorial",
+            "blocks": 2,
+            "startAmount": 100,
+            "time": 7000,
+            "lines": 1,
+            "boomMeter": 500,
+            "bonuses": [],
+            "obstacles": [],
+            "starsConditions": [1,100,500],
+            "iaps": false
+        }, 
+        {
+            "name": "Play it easy",
+            "blocks": 2,
+            "startAmount": 100,
+            "time": 500,
+            "lines": 1,
+            "boomMeter": 1000,
+            "bonuses": [],
+            "obstacles": [],
+            "starsConditions": [1,100,300],
+            "iaps": false
+        }, 
+        {
+            "name": "Still easy",
+            "blocks": 3,
+            "startAmount": 70,
+            "time": 700,
+            "lines": 1,
+            "boomMeter": 10,
+            "bonuses": [1],
+            "obstacles": [],
+            "starsConditions": [10,100,500],
+            "iaps": false
+        }, 
+        {
+            "name": "Practice, Practice, Practice",
+            "blocks": 3,
+            "startAmount": 70,
+            "time": 1000,
+            "lines": 1,
+            "boomMeter": 15,
+            "bonuses": [1,2],
+            "obstacles": [],
+            "starsConditions": [10,100,800],
+            "iaps": false
+        }, 
+        {
+            "name": "Level 5",
+            "blocks": 4,
+            "startAmount": 70,
+            "time": 1400,
+            "lines": 1,
+            "boomMeter": 20,
+            "bonuses": [1,3],
+            "obstacles": [],
+            "starsConditions": [10,100,1000],
+            "iaps": false
+        },
+        {
+            "name": "Level 6",
+            "blocks": 4,
+            "startAmount": 75,
+            "time": 1400,
+            "lines": 1,
+            "boomMeter": 20,
+            "bonuses": [1,3],
+            "obstacles": [],
+            "starsConditions": [10,100,1000],
+            "iaps": false
+        }, 
+        {
+            "name": "Level 7",
+            "blocks": 4,
+            "startAmount": 80,
+            "time": 1400,
+            "lines": 1,
+            "boomMeter": 20,
+            "bonuses": [1,3],
+            "obstacles": [],
+            "starsConditions": [10,100,1000],
+            "iaps": false
+        }, 
+        {
+            "name": "Probably some troubles",
+            "blocks": 4,
+            "startAmount": 40,
+            "time": 1500,
+            "lines": 1,
+            "boomMeter": 20,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [0, -150]
+                }
+            ],
+            "starsConditions": [10,100,400],
+            "iaps": true
+        }, 
+        {
+            "name": "You still can do it",
+            "blocks": 4,
+            "startAmount": 80,
+            "time": 1700,
+            "lines": 2,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 1,
+                    "position": [0, -150],
+                    "lives": 3
+                }
+            ],
+            "starsConditions": [10,200,500],
+            "iaps": true
+        },
+        {
+            "name": "Probably some troubles 2",
+            "blocks": 5,
+            "startAmount": 70,
+            "time": 1900,
+            "lines": 2,
+            "boomMeter": 20,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [0, -150]
+                }
+            ],
+            "starsConditions": [10,100,400],
+            "iaps": true
+        }, 
+        {
+            "name": "Now we are talking",
+            "blocks": 5,
+            "startAmount": 60,
+            "time": 1700,
+            "lines": 2,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 1,
+                    "position": [-200, -200],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [-100, -150],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [0, -100],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [100, -150],
+                    "lives": 1
+                },
+                {
+                    "type": 1,
+                    "position": [200, -200],
+                    "lives": 1
+                }
+            ],
+            "starsConditions": [10,550,1200],
+            "iaps": true
+        },
+        {
+            "name": "Still tired?",
+            "blocks": 6,
+            "startAmount": 70,
+            "time": 1800,
+            "lines": 1,
+            "boomMeter": 25,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [-200, 0]
+                },
+                {
+                    "type": 2,
+                    "position": [200, 0]
+                }
+            ],
+            "starsConditions": [10,200,1100],
+            "iaps": true
+        }, 
+        {
+            "name": "In the middle",
+            "blocks": 5,
+            "startAmount": 80,
+            "time": 1800,
+            "lines": 2,
+            "boomMeter": 30,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 3
+                }
+            ],
+            "starsConditions": [10,800,1500],
+            "iaps": true
+        },
+        {
+            "name": "One more emoji for you",
+            "blocks": 6,
+            "startAmount": 70,
+            "time": 1700,
+            "lines": 2,
+            "boomMeter": 25,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 3
+                }
+            ],
+            "starsConditions": [10,800,2500],
+            "iaps": true
+        },
+        {
+            "name": "All Seven",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2500,
+            "lines": 4,
+            "boomMeter": 20,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,500,2000],
+            "iaps": true
+        }, 
+        {
+            "name": "If you beat this you're great",
+            "blocks": 5,
+            "startAmount": 80,
+            "time": 3000,
+            "lines": 3,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [-290, -100]
+                },
+                {
+                    "type": 2,
+                    "position": [-190, -100]
+                },
+                {
+                    "type": 2,
+                    "position": [190, -100]
+                },
+                {
+                    "type": 2,
+                    "position": [290, -100]
+                }
+            ],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        },
+        {
+            "name": "Oh my God!",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        }, 
+        {
+            "name": "No No No",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        }, 
+        {
+            "name": "Yes, it's hard",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 1,
+                    "position": [-280, -150],
+                    "lives": 3
+                },
+                {
+                    "type": 1,
+                    "position": [280, -150],
+                    "lives": 3
+                },
+                {
+                    "type": 1,
+                    "position": [0, -250],
+                    "lives": 3
+                }
+            ],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        }, 
+        {
+            "name": "A little bit easier",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        }, 
+        {
+            "name": "Too much",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        }, 
+        {
+            "name": "Save your balls",
+            "blocks": 7,
+            "startAmount": 80,
+            "time": 2800,
+            "lines": 4,
+            "boomMeter": 15,
+            "bonuses": [1,2,3],
+            "obstacles": [],
+            "starsConditions": [10,50,100],
+            "iaps": true
+        }
+    ]
+}

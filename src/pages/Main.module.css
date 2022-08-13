@@ -1,0 +1,152 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, transparent 0%, black 90%), url("../assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.header {
+  width: 60%;
+  margin: 10% auto;
+  height: 30vh;
+  display: flex;
+  margin-top: 30vh;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: left;
+  padding-top: 20%;
+  animation-name: moveUp;
+  animation-duration: 1s;
+}
+
+.infobox {
+  display: block;
+}
+
+.infoboxH1 {
+  display: block;
+  font-size: 4.5rem;
+  
+}
+
+.infoboxText {
+  display: block;
+  font-size: 2.5rem;
+  
+}
+
+.games {
+  width: 100%;
+  margin: 0 auto 10% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  width: 60%;
+  margin: 0 auto 5% auto;
+  animation-name: moveUp;
+  animation-duration: 1s;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  display: block;
+  text-align: left;
+}
+
+.sectionText {
+  font-size: 2rem;
+  display: block;
+  text-align: left;
+  
+  margin-bottom: 7rem;
+}
+
+.line {
+  color: rgba(203, 56, 6, 0.8);
+  font-size: 3rem;
+}
+
+
+ @media (max-width: 900px) {
+   .wrapper {
+     height: 50vh;
+   }
+   .header {
+     width: 80%;
+     height: 70vh;
+     margin-top: 10%;
+   }
+   .section {
+     width: 80%;
+   }
+
+   .sectionText {
+    margin: 5% auto 5% auto;
+  }
+
+  .sectionTitle {
+    margin-bottom: 0;
+  }
+
+  .games {
+    margin-bottom: 0;
+  }
+ }
+
+ @media (max-width: 600px){
+  .wrapper {
+    height: 50vh;
+  }
+
+   .header {
+     width: 90%;
+     height: 40vh;
+     margin-top: 5%;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-bottom: 25%;
+   }
+
+   .infobox {
+     width: 100%;
+     margin-bottom: 5%;
+   }
+
+   .section {
+     width: 90%;
+   }
+
+   .sectionTitle {
+     margin-bottom: 0;
+   }
+
+   .sectionText {
+     margin: 3% auto 5% auto;
+   }
+
+   .games {
+     flex-wrap: wrap;
+     margin-bottom: 0;
+     margin-top: 5%;
+   }
+ }
+
+ @keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

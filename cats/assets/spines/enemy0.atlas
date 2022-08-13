@@ -1,0 +1,13 @@
+
+enemy0.png
+size: 70,95
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enemy0
+  rotate: false
+  xy: 0, 0
+  size: 70, 95
+  orig: 70, 95
+  offset: 0, 0
+  index: -1

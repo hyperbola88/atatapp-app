@@ -1,0 +1,121 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  height: 6rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20%;
+  animation: moveDown 1s;
+  z-index: 1;
+
+}
+.logo {
+  width: 40px
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.link {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: 1px 1px 0px rgba(203, 56, 6, 0.8),
+    2px 2px 0px rgba(203, 56, 6, 0.8), 3px 3px 0px rgba(203, 56, 6, 0.8),
+    4px 4px 0px rgba(203, 56, 6, 0.8);
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active,
+.link .active
+{
+  border-bottom: 2px solid white;
+}
+
+.link:hover
+{
+  transform: translateY(-3px);
+}
+
+.burger {
+  color: white;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    height: 5rem;
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+    
+  }
+
+  .navbar.openBurger {
+    display: flex;
+    height: 90vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20%;
+    animation: moveDown .5s;
+    
+  }
+
+  .link {
+    margin-top: 30%;
+    font-size: 4rem;
+  }
+
+  ul.openBurger {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .burger {
+    display: block;
+    z-index: 1000;
+  }
+  .logo {
+    width: 100px;
+  }
+
+}
+
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

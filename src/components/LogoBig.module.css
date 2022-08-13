@@ -1,0 +1,5 @@
+.logoBig {
+   width: 10rem;
+   height: 10rem;
+   filter: invert(100%); 
+}
