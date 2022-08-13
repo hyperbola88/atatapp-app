@@ -1,10 +1,10 @@
 import React from "react";
 import { Fragment } from "react";
-
 import Button from "../components/Button";
 import GameIntro from "../components/GameIntro";
 
 import classes from "./Main.module.css";
+import buttonClasses from "../components/Button.module.css";
 
 import games from "../store/data";
 
@@ -31,13 +31,9 @@ const Main = () => {
       <div className={classes.section}>
         <div className={classes.sectionTitle}> <span className={classes.line}>&#8212;</span> About us</div>
         <p className={classes.sectionText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum 
+          We are a nano-team of professionals: Master of Art, Colonel of Sound and Ninja of Code. Our expertise mostly is in cross-platform HTML5 game development, but not only! The team has over 50 years of combined experience.
+        <br/>
+          Our passion is to make fun games for 3 main platforms: HTML5 portals, Facebook Instant games and Mobile App Stores. But the most important thing is to adapt a game for each platform. Games for FB shouldn't be the same as on Mobile, right?
         </p>
       </div>
 
@@ -54,15 +50,11 @@ const Main = () => {
       <div className={classes.section}>
       <div className={classes.sectionTitle}> <span className={classes.line}>&#8212;</span> Contact us</div>
       <p className={classes.sectionText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum 
+          We are open for questions, answers, discussions, job, money, food, drinks, but please don't send us your photos.
         </p>
-        <Button navigateTo={'/contacts'}>Contact Info</Button>
+        <a href='mailto:contact@atatapp.games' className={buttonClasses.button}>
+          <div className={classes.buttonText}>Send email</div>
+        </a>
 
       </div>
     </Fragment>

@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to bottom, transparent 0%, black 100%), url("../assets/background.jpg");
+  background-image: linear-gradient(to bottom, transparent 0%, black 90%), url("../assets/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

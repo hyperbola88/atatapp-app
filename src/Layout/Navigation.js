@@ -35,16 +35,11 @@ const Navigation = () => {
                 className={({ isActive }) => (isActive ? classes.active : "")}
                 to="/games"
               >
-                Games
+                Show All Games
               </NavLink>
             </li>
             <li className={classes.link} onClick={burgerHandler}>
-              <NavLink
-                className={({ isActive }) => (isActive ? classes.active : "")}
-                to="/contacts"
-              >
-                Contacts
-              </NavLink>
+              <a href="mailto:contact@atatapp.games">Contact Us</a>
             </li>
           </ul>
         </div>
