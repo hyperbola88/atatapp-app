@@ -31,7 +31,7 @@ const Main = () => {
       <div className={classes.section}>
         <div className={classes.sectionTitle}> <span className={classes.line}>&#8212;</span> About us</div>
         <p className={classes.sectionText}>
-          We are a nano-team of professionals: Master of Art, Colonel of Sound and Ninja of Code. Our expertise mostly is in cross-platform HTML5 game development, but not only! The team has over 50 years of combined experience.
+          We are a nano-team of professionals: Master of Art, Colonel of Sound and Ninja of Code. Our expertise mostly is in cross-platform HTML5 game development, but not only (we know what is Unity too)! The team has over 50 years of combined experience.
         <br/>
           Our passion is to make fun games for 3 main platforms: HTML5 portals, Facebook Instant games and Mobile App Stores. But the most important thing is to adapt a game for each platform. Games for FB shouldn't be the same as on Mobile, right?
         </p>
