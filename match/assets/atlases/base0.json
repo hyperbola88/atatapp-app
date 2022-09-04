@@ -303,6 +303,6 @@
 	"size": {"w":2048,"h":2044},
 	"scale": "1",
 	"related_multi_packs": [ "base1.json" ],
-	"smartupdate": "$TexturePacker:SmartUpdate:2f5faae39c29aa75ba1750e96607ad07:9d5407a00d509da37d3102c38008dd22:878f2841c196245f2598d80540856c2f$"
+	"smartupdate": "$TexturePacker:SmartUpdate:68722d623ae558d975cfdc5b68defb14:f92ff48462e4b7e0e65547367a17a982:878f2841c196245f2598d80540856c2f$"
 }
 }
