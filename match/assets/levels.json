@@ -179,7 +179,7 @@
             "time": 1800,
             "lines": 1,
             "boomMeter": 25,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -201,7 +201,7 @@
             "time": 1800,
             "lines": 2,
             "boomMeter": 30,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -218,7 +218,7 @@
             "time": 1700,
             "lines": 2,
             "boomMeter": 25,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -235,7 +235,7 @@
             "time": 2500,
             "lines": 2,
             "boomMeter": 10,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [{
                 "type": 4,
@@ -251,7 +251,7 @@
             "time": 3500,
             "lines": 2,
             "boomMeter": 20,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [{
                 "type": 4,
@@ -267,7 +267,7 @@
             "time": 2800,
             "lines": 3,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [{
                 "type": 4,
@@ -283,7 +283,7 @@
             "time": 2000,
             "lines": 3,
             "boomMeter": 25,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [],
             "starsConditions": [10,500,2000],
@@ -296,7 +296,7 @@
             "time": 2800,
             "lines": 3,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -318,7 +318,7 @@
             "time": 2000,
             "lines": 3,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -357,7 +357,7 @@
             "time": 1500,
             "lines": 4,
             "boomMeter": 20,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [{
                 "type": 4,
@@ -373,7 +373,7 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 20,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [{
                 "type": 2,
@@ -389,7 +389,7 @@
             "time": 2500,
             "lines": 4,
             "boomMeter": 20,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [],
             "starsConditions": [10,500,2000],
@@ -402,7 +402,7 @@
             "time": 3000,
             "lines": 3,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -432,7 +432,7 @@
             "time": 3000,
             "lines": 2,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -450,7 +450,7 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [],
             "starsConditions": [10,50,100],
@@ -463,7 +463,7 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [
                 {
@@ -492,7 +492,7 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [],
             "starsConditions": [10,50,100],
@@ -505,7 +505,7 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [],
             "starsConditions": [10,50,100],
@@ -518,7 +518,7 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 15,
-            "idealTime": 10000,
+            "idealTime": 100000,
             "bonuses": [1,2,3],
             "obstacles": [],
             "starsConditions": [10,50,100],
