@@ -7,7 +7,7 @@
             "time": 7000,
             "lines": 1,
             "boomMeter": 500,
-            "idealTime": 9000,
+            "idealTime": 20000,
             "bonuses": [],
             "obstacles": [],
             "starsConditions": [1,100,500],
@@ -52,19 +52,6 @@
             "starsConditions": [10,100,800],
             "iaps": false
         }, 
-        {
-            "name": "Try this one",
-            "blocks": 4,
-            "startAmount": 70,
-            "time": 1400,
-            "lines": 1,
-            "boomMeter": 20,
-            "idealTime": 25000,
-            "bonuses": [1,3],
-            "obstacles": [],
-            "starsConditions": [10,100,1000],
-            "iaps": false
-        },
         {
             "name": "Could be simple",
             "blocks": 4,
@@ -127,7 +114,11 @@
             "obstacles": [
                 {
                     "type": 2,
-                    "position": [0, -150]
+                    "position": [0, 0]
+                },
+                {
+                    "type": 2,
+                    "position": [0, -120]
                 }
             ],
             "starsConditions": [10,600,800],
@@ -215,7 +206,7 @@
             "name": "One more emoji for you",
             "blocks": 6,
             "startAmount": 70,
-            "time": 1700,
+            "time": 2000,
             "lines": 2,
             "boomMeter": 25,
             "idealTime": 100000,
@@ -223,6 +214,22 @@
             "obstacles": [
                 {
                     "type": 3
+                },
+                {
+                    "type": 2,
+                    "position": [0, 120]
+                },
+                {
+                    "type": 2,
+                    "position": [0, 0]
+                },
+                {
+                    "type": 2,
+                    "position": [0, -120]
+                },
+                {
+                    "type": 2,
+                    "position": [0, -240]
                 }
             ],
             "starsConditions": [10,800,2500],
