@@ -164,45 +164,6 @@
             "iaps": true
         },
         {
-            "name": "Still tired?",
-            "blocks": 6,
-            "startAmount": 70,
-            "time": 1800,
-            "lines": 1,
-            "boomMeter": 25,
-            "idealTime": 100000,
-            "bonuses": [1,2,3],
-            "obstacles": [
-                {
-                    "type": 2,
-                    "position": [-200, 0]
-                },
-                {
-                    "type": 2,
-                    "position": [200, 0]
-                }
-            ],
-            "starsConditions": [10,200,1100],
-            "iaps": true
-        }, 
-        {
-            "name": "In the middle",
-            "blocks": 5,
-            "startAmount": 80,
-            "time": 1800,
-            "lines": 2,
-            "boomMeter": 30,
-            "idealTime": 100000,
-            "bonuses": [1,2,3],
-            "obstacles": [
-                {
-                    "type": 3
-                }
-            ],
-            "starsConditions": [10,800,1500],
-            "iaps": true
-        },
-        {
             "name": "One more emoji for you",
             "blocks": 6,
             "startAmount": 70,
@@ -235,6 +196,45 @@
             "starsConditions": [10,800,2500],
             "iaps": true
         },
+        {
+            "name": "In the middle",
+            "blocks": 5,
+            "startAmount": 80,
+            "time": 1800,
+            "lines": 2,
+            "boomMeter": 30,
+            "idealTime": 100000,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 3
+                }
+            ],
+            "starsConditions": [10,800,1500],
+            "iaps": true
+        },
+        {
+            "name": "Still tired?",
+            "blocks": 6,
+            "startAmount": 70,
+            "time": 1800,
+            "lines": 1,
+            "boomMeter": 25,
+            "idealTime": 100000,
+            "bonuses": [1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [-200, 0]
+                },
+                {
+                    "type": 2,
+                    "position": [200, 0]
+                }
+            ],
+            "starsConditions": [10,200,1100],
+            "iaps": true
+        }, 
         {
             "name": "The Death",
             "blocks": 5,
