@@ -8,7 +8,7 @@
             "time": 7000,
             "lines": 1,
             "boomMeter": 500,
-            "idealTime": 20000,
+            "idealTime": 30000,
             "bonuses": [],
             "obstacles": [],
             "starsConditions": [1,100,500],
@@ -22,7 +22,7 @@
             "time": 500,
             "lines": 1,
             "boomMeter": 1000,
-            "idealTime": 11000,
+            "idealTime": 30000,
             "bonuses": [],
             "obstacles": [],
             "starsConditions": [1,100,300],
@@ -114,9 +114,9 @@
             "name": "Probably another trouble",
             "blocks": 5,
             "startAmount": 70,
-            "time": 1900,
+            "time": 1800,
             "lines": 2,
-            "boomMeter": 20,
+            "boomMeter": 25,
             "idealTime": 60000,
             "bonuses": [4,1,2,3],
             "obstacles": [
@@ -135,12 +135,12 @@
         {
             "key": 9,
             "name": "Now we are talking",
-            "blocks": 5,
+            "blocks": 6,
             "startAmount": 60,
-            "time": 1700,
+            "time": 1400,
             "lines": 2,
-            "boomMeter": 15,
-            "idealTime": 80000,
+            "boomMeter": 18,
+            "idealTime": 110000,
             "bonuses": [4,1,2,3],
             "obstacles": [
                 {
@@ -174,13 +174,13 @@
         },
         {
             "key": 10,
-            "name": "One more emoji for you",
+            "name": "The Wall",
             "blocks": 6,
-            "startAmount": 70,
-            "time": 2000,
+            "startAmount": 80,
+            "time": 1800,
             "lines": 2,
             "boomMeter": 25,
-            "idealTime": 100000,
+            "idealTime": 120000,
             "bonuses": [4,1,2,3],
             "obstacles": [
                 {
@@ -211,11 +211,11 @@
             "name": "In the middle",
             "blocks": 5,
             "startAmount": 80,
-            "time": 1800,
+            "time": 1500,
             "lines": 2,
             "boomMeter": 30,
             "idealTime": 100000,
-            "bonuses": [4,1,2,3],
+            "bonuses": [4],
             "obstacles": [
                 {
                     "type": 3
@@ -228,12 +228,12 @@
             "key": 12,
             "name": "Still tired?",
             "blocks": 6,
-            "startAmount": 70,
-            "time": 1800,
+            "startAmount": 30,
+            "time": 400,
             "lines": 1,
-            "boomMeter": 25,
+            "boomMeter": 30,
             "idealTime": 100000,
-            "bonuses": [4,1,2,3],
+            "bonuses": [4,2],
             "obstacles": [
                 {
                     "type": 2,
@@ -252,7 +252,7 @@
             "name": "The Death",
             "blocks": 5,
             "startAmount": 50,
-            "time": 2500,
+            "time": 1300,
             "lines": 2,
             "boomMeter": 10,
             "idealTime": 100000,
@@ -272,11 +272,11 @@
             "time": 3500,
             "lines": 2,
             "boomMeter": 20,
-            "idealTime": 100000,
+            "idealTime": 200000,
             "bonuses": [4,1,2,3],
             "obstacles": [{
                 "type": 4,
-                "amount": 2
+                "amount": 6
             }],
             "starsConditions": [10,400,800],
             "iaps": true
@@ -285,15 +285,15 @@
             "key": 15,
             "name": "Doom",
             "blocks": 6,
-            "startAmount": 60,
+            "startAmount": 50,
             "time": 2800,
             "lines": 3,
             "boomMeter": 15,
-            "idealTime": 100000,
+            "idealTime": 200000,
             "bonuses": [4,1,2,3],
             "obstacles": [{
                 "type": 4,
-                "amount": 2
+                "amount": 6
             }],
             "starsConditions": [10,600,1200],
             "iaps": true
@@ -303,7 +303,7 @@
             "name": "Breath and Relax",
             "blocks": 5,
             "startAmount": 90,
-            "time": 2000,
+            "time": 1000,
             "lines": 3,
             "boomMeter": 25,
             "idealTime": 100000,
@@ -330,6 +330,10 @@
                 {
                     "type": 2,
                     "position": [0, -200]
+                },
+                {
+                    "type": 4,
+                    "amount": 2
                 }
             ],
             "starsConditions": [10,400,1000],
@@ -342,8 +346,8 @@
             "startAmount": 80,
             "time": 2000,
             "lines": 3,
-            "boomMeter": 15,
-            "idealTime": 100000,
+            "boomMeter": 20,
+            "idealTime": 150000,
             "bonuses": [4,1,2,3],
             "obstacles": [
                 {
@@ -370,6 +374,10 @@
                     "type": 1,
                     "position": [200, -250],
                     "lives": 1
+                },
+                {
+                    "type": 4,
+                    "amount": 4
                 }
             ],
             "starsConditions": [10,550,1200],
@@ -380,14 +388,14 @@
             "name": "Joy",
             "blocks": 4,
             "startAmount": 90,
-            "time": 1500,
+            "time": 1000,
             "lines": 4,
-            "boomMeter": 20,
+            "boomMeter": 25,
             "idealTime": 100000,
             "bonuses": [4,1,2,3],
             "obstacles": [{
                 "type": 4,
-                "amount": 1
+                "amount": 5
             }],
             "starsConditions": [10,500,2000],
             "iaps": true
@@ -525,9 +533,12 @@
             "time": 2800,
             "lines": 4,
             "boomMeter": 15,
-            "idealTime": 100000,
+            "idealTime": 150000,
             "bonuses": [4,1,2,3],
-            "obstacles": [],
+            "obstacles": [{
+                "type": 4,
+                "amount": 5
+            }],
             "starsConditions": [10,50,100],
             "iaps": true
         }, 
@@ -536,12 +547,17 @@
             "name": "Too much",
             "blocks": 7,
             "startAmount": 80,
-            "time": 2800,
+            "time": 2300,
             "lines": 4,
             "boomMeter": 15,
             "idealTime": 100000,
             "bonuses": [4,1,2,3],
-            "obstacles": [],
+            "obstacles": [
+                {
+                    "type": 4,
+                    "amount": 10
+                }
+            ],
             "starsConditions": [10,50,100],
             "iaps": true
         }, 
@@ -549,13 +565,18 @@
             "key": 28,
             "name": "Save your balls",
             "blocks": 7,
-            "startAmount": 80,
-            "time": 2800,
-            "lines": 4,
-            "boomMeter": 15,
+            "startAmount": 30,
+            "time": 600,
+            "lines": 2,
+            "boomMeter": 25,
             "idealTime": 100000,
             "bonuses": [4,1,2,3],
-            "obstacles": [],
+            "obstacles": [
+                {
+                    "type": 4,
+                    "amount": 5
+                }
+            ],
             "starsConditions": [10,50,100],
             "iaps": true
         }
