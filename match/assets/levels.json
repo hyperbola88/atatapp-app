@@ -75,7 +75,7 @@
             "name": "Probably some troubles",
             "blocks": 4,
             "startAmount": 40,
-            "time": 1500,
+            "time": 1000,
             "lines": 1,
             "boomMeter": 20,
             "idealTime": 60000,
@@ -254,8 +254,8 @@
             "startAmount": 50,
             "time": 1300,
             "lines": 2,
-            "boomMeter": 10,
-            "idealTime": 100000,
+            "boomMeter": 20,
+            "idealTime": 50000,
             "bonuses": [4,1,2,3],
             "obstacles": [{
                 "type": 4,
@@ -269,7 +269,7 @@
             "name": "Impossible",
             "blocks": 5,
             "startAmount": 50,
-            "time": 3500,
+            "time": 2000,
             "lines": 2,
             "boomMeter": 20,
             "idealTime": 200000,
@@ -286,9 +286,9 @@
             "name": "Doom",
             "blocks": 6,
             "startAmount": 50,
-            "time": 2800,
+            "time": 2000,
             "lines": 3,
-            "boomMeter": 15,
+            "boomMeter": 18,
             "idealTime": 200000,
             "bonuses": [4,1,2,3],
             "obstacles": [{
@@ -344,7 +344,7 @@
             "name": "Pop it faster",
             "blocks": 6,
             "startAmount": 80,
-            "time": 2000,
+            "time": 1500,
             "lines": 3,
             "boomMeter": 20,
             "idealTime": 150000,
@@ -475,7 +475,7 @@
             "obstacles": [
                 {
                     "type": 4,
-                    "amount": 1
+                    "amount": 8
                 }
             ],
             "starsConditions": [10,500,800],
@@ -488,9 +488,9 @@
             "startAmount": 80,
             "time": 2800,
             "lines": 4,
-            "boomMeter": 15,
+            "boomMeter": 20,
             "idealTime": 100000,
-            "bonuses": [4,1,2,3],
+            "bonuses": [2],
             "obstacles": [],
             "starsConditions": [10,50,100],
             "iaps": true
@@ -578,6 +578,64 @@
                 }
             ],
             "starsConditions": [10,50,100],
+            "iaps": true
+        },
+        {
+            "key": 29,
+            "name": "Let's chill",
+            "blocks": 6,
+            "startAmount": 100,
+            "time": 3000,
+            "lines": 4,
+            "boomMeter": 20,
+            "idealTime": 70000,
+            "bonuses": [4,1,2,3],
+            "obstacles": [
+                {
+                    "type": 4,
+                    "amount": 5
+                }
+            ],
+            "starsConditions": [10,500,1300],
+            "iaps": true
+        },
+        {
+            "key": 30,
+            "name": "Here we go again",
+            "blocks": 7,
+            "startAmount": 30,
+            "time": 600,
+            "lines": 1,
+            "boomMeter": 30,
+            "idealTime": 110000,
+            "bonuses": [4,1,2,3],
+            "obstacles": [
+                {
+                    "type": 2,
+                    "position": [-150, -150]
+                },
+                {
+                    "type": 2,
+                    "position": [150, -150]
+                },
+                {
+                    "type": 2,
+                    "position": [-150, 0]
+                },
+                {
+                    "type": 2,
+                    "position": [150, 0]
+                },
+                {
+                    "type": 2,
+                    "position": [-150, 150]
+                },
+                {
+                    "type": 2,
+                    "position": [150, 150]
+                }
+            ],
+            "starsConditions": [10,700,3000],
             "iaps": true
         }
     ]
