@@ -12,7 +12,8 @@
             "bonuses": [],
             "obstacles": [],
             "starsConditions": [1,100,500],
-            "iaps": false
+            "iaps": false,
+            "bonusBalls": []
         }, 
         {
             "key": 2,
@@ -26,7 +27,8 @@
             "bonuses": [],
             "obstacles": [],
             "starsConditions": [1,100,300],
-            "iaps": false
+            "iaps": false,
+            "bonusBalls": []
         }, 
         {
             "key": 3,
@@ -40,7 +42,8 @@
             "bonuses": [4],
             "obstacles": [],
             "starsConditions": [10,100,500],
-            "iaps": false
+            "iaps": false,
+            "bonusBalls": []
         }, 
         {
             "key": 4,
@@ -54,7 +57,8 @@
             "bonuses": [4,1],
             "obstacles": [],
             "starsConditions": [10,100,800],
-            "iaps": false
+            "iaps": false,
+            "bonusBalls": []
         }, 
         {
             "key": 5,
@@ -68,7 +72,8 @@
             "bonuses": [4,2],
             "obstacles": [],
             "starsConditions": [10,100,1000],
-            "iaps": false
+            "iaps": false,
+            "bonusBalls": []
         }, 
         {
             "key": 6,
@@ -87,7 +92,8 @@
                 }
             ],
             "starsConditions": [10,100,400],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": []
         }, 
         {
             "key": 7,
@@ -107,7 +113,8 @@
                 }
             ],
             "starsConditions": [10,200,500],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": []
         },
         {
             "key": 8,
@@ -130,7 +137,8 @@
                 }
             ],
             "starsConditions": [10,600,800],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": []
         }, 
         {
             "key": 9,
@@ -170,7 +178,8 @@
                 }
             ],
             "starsConditions": [10,450,900],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1]
         },
         {
             "key": 10,
@@ -204,7 +213,8 @@
                 }
             ],
             "starsConditions": [10,800,2500],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [2]
         },
         {
             "key": 11,
@@ -222,7 +232,8 @@
                 }
             ],
             "starsConditions": [10,800,1500],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         },
         {
             "key": 12,
@@ -245,7 +256,8 @@
                 }
             ],
             "starsConditions": [10,200,1100],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 13,
@@ -262,7 +274,8 @@
                 "amount": 1
             }],
             "starsConditions": [10,500,2000],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 14,
@@ -279,7 +292,8 @@
                 "amount": 6
             }],
             "starsConditions": [10,400,800],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 15,
@@ -296,7 +310,8 @@
                 "amount": 6
             }],
             "starsConditions": [10,600,1200],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 16,
@@ -310,7 +325,8 @@
             "bonuses": [4,1,2,3],
             "obstacles": [],
             "starsConditions": [10,500,2000],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 17,
@@ -337,7 +353,8 @@
                 }
             ],
             "starsConditions": [10,400,1000],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 18,
@@ -381,7 +398,8 @@
                 }
             ],
             "starsConditions": [10,550,1200],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         },
         {
             "key": 19,
@@ -398,7 +416,8 @@
                 "amount": 5
             }],
             "starsConditions": [10,500,2000],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 20,
@@ -415,7 +434,8 @@
                 "position": [0, 300]
             }],
             "starsConditions": [10,500,2000],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 21,
@@ -429,7 +449,8 @@
             "bonuses": [4,1,2,3],
             "obstacles": [],
             "starsConditions": [10,500,2000],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 22,
@@ -460,7 +481,8 @@
                 }
             ],
             "starsConditions": [10,200,700],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         },
         {
             "key": 23,
@@ -479,7 +501,8 @@
                 }
             ],
             "starsConditions": [10,500,800],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 24,
@@ -493,7 +516,8 @@
             "bonuses": [2],
             "obstacles": [],
             "starsConditions": [10,50,100],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 25,
@@ -523,7 +547,8 @@
                 }
             ],
             "starsConditions": [10,50,100],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 26,
@@ -540,7 +565,8 @@
                 "amount": 5
             }],
             "starsConditions": [10,50,100],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 27,
@@ -559,7 +585,8 @@
                 }
             ],
             "starsConditions": [10,50,100],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }, 
         {
             "key": 28,
@@ -578,7 +605,8 @@
                 }
             ],
             "starsConditions": [10,50,100],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         },
         {
             "key": 29,
@@ -597,16 +625,17 @@
                 }
             ],
             "starsConditions": [10,500,1300],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         },
         {
             "key": 30,
             "name": "Here we go again",
             "blocks": 7,
-            "startAmount": 30,
+            "startAmount": 60,
             "time": 600,
             "lines": 1,
-            "boomMeter": 30,
+            "boomMeter": 20,
             "idealTime": 110000,
             "bonuses": [4,1,2,3],
             "obstacles": [
@@ -636,7 +665,8 @@
                 }
             ],
             "starsConditions": [10,700,3000],
-            "iaps": true
+            "iaps": true,
+            "bonusBalls": [1,2]
         }
     ]
 }
