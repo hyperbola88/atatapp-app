@@ -17,7 +17,7 @@
         }, 
         {
             "key": 2,
-            "name": "Play it easy",
+            "name": "Easy Peasy",
             "blocks": 2,
             "startAmount": 100,
             "time": 500,
@@ -32,7 +32,7 @@
         }, 
         {
             "key": 3,
-            "name": "Still easy",
+            "name": "One-Finger Exercise",
             "blocks": 3,
             "startAmount": 70,
             "time": 700,
@@ -47,7 +47,7 @@
         }, 
         {
             "key": 4,
-            "name": "Practice, Practice, Practice",
+            "name": "Cushy Job",
             "blocks": 3,
             "startAmount": 70,
             "time": 1000,
@@ -62,7 +62,7 @@
         }, 
         {
             "key": 5,
-            "name": "Could be simple",
+            "name": "Child's Play",
             "blocks": 4,
             "startAmount": 75,
             "time": 1400,
@@ -77,7 +77,7 @@
         }, 
         {
             "key": 6,
-            "name": "Probably some troubles",
+            "name": "Gift",
             "blocks": 4,
             "startAmount": 40,
             "time": 1000,
@@ -97,7 +97,7 @@
         }, 
         {
             "key": 7,
-            "name": "You still can do it",
+            "name": "Chickenfeed",
             "blocks": 4,
             "startAmount": 80,
             "time": 1700,
@@ -118,7 +118,7 @@
         },
         {
             "key": 8,
-            "name": "Probably another trouble",
+            "name": "Shooting Fish In A Barrel",
             "blocks": 5,
             "startAmount": 70,
             "time": 1800,
@@ -142,7 +142,7 @@
         }, 
         {
             "key": 9,
-            "name": "Now we are talking",
+            "name": "Gravy Train",
             "blocks": 6,
             "startAmount": 60,
             "time": 1400,
@@ -183,7 +183,7 @@
         },
         {
             "key": 10,
-            "name": "The Wall",
+            "name": "As Easy As Shelling Peas",
             "blocks": 6,
             "startAmount": 80,
             "time": 1800,
@@ -218,7 +218,7 @@
         },
         {
             "key": 11,
-            "name": "In the middle",
+            "name": "With One Arm",
             "blocks": 5,
             "startAmount": 80,
             "time": 1500,
@@ -237,7 +237,7 @@
         },
         {
             "key": 12,
-            "name": "Still tired?",
+            "name": "Plain Sailing",
             "blocks": 6,
             "startAmount": 30,
             "time": 400,
@@ -261,7 +261,7 @@
         }, 
         {
             "key": 13,
-            "name": "The Death",
+            "name": "Laugher",
             "blocks": 5,
             "startAmount": 50,
             "time": 1300,
@@ -279,7 +279,7 @@
         }, 
         {
             "key": 14,
-            "name": "Impossible",
+            "name": "Bludge",
             "blocks": 5,
             "startAmount": 50,
             "time": 2000,
@@ -297,7 +297,7 @@
         }, 
         {
             "key": 15,
-            "name": "Doom",
+            "name": "Doss",
             "blocks": 6,
             "startAmount": 50,
             "time": 2000,
@@ -315,7 +315,7 @@
         }, 
         {
             "key": 16,
-            "name": "Breath and Relax",
+            "name": "Foolproof",
             "blocks": 5,
             "startAmount": 90,
             "time": 1000,
@@ -330,7 +330,7 @@
         }, 
         {
             "key": 17,
-            "name": "Remember this?",
+            "name": "A Piece Of Old Tackie",
             "blocks": 5,
             "startAmount": 80,
             "time": 2800,
@@ -358,7 +358,7 @@
         }, 
         {
             "key": 18,
-            "name": "Pop it faster",
+            "name": "Snap",
             "blocks": 6,
             "startAmount": 80,
             "time": 1500,
@@ -403,7 +403,7 @@
         },
         {
             "key": 19,
-            "name": "Joy",
+            "name": "No-Brainer",
             "blocks": 4,
             "startAmount": 90,
             "time": 1000,
@@ -421,7 +421,7 @@
         }, 
         {
             "key": 20,
-            "name": "Prepare your Soul",
+            "name": "Walk In The Park",
             "blocks": 6,
             "startAmount": 70,
             "time": 2800,
@@ -439,7 +439,7 @@
         }, 
         {
             "key": 21,
-            "name": "All Seven",
+            "name": "Cinch",
             "blocks": 7,
             "startAmount": 80,
             "time": 2500,
@@ -454,7 +454,7 @@
         }, 
         {
             "key": 22,
-            "name": "If you beat this you're great",
+            "name": "Idiot-Proof",
             "blocks": 5,
             "startAmount": 80,
             "time": 3000,
@@ -486,7 +486,7 @@
         },
         {
             "key": 23,
-            "name": "Oh my God!",
+            "name": "Low-Hanging Fruit",
             "blocks": 7,
             "startAmount": 80,
             "time": 3000,
@@ -506,7 +506,7 @@
         }, 
         {
             "key": 24,
-            "name": "No No No",
+            "name": "Chickenfeed",
             "blocks": 7,
             "startAmount": 80,
             "time": 2800,
@@ -521,7 +521,7 @@
         }, 
         {
             "key": 25,
-            "name": "Yes, it's hard",
+            "name": "Money For Old Rope",
             "blocks": 7,
             "startAmount": 80,
             "time": 2800,
@@ -552,7 +552,7 @@
         }, 
         {
             "key": 26,
-            "name": "A little bit easier",
+            "name": "Picnic",
             "blocks": 7,
             "startAmount": 80,
             "time": 2800,
@@ -570,7 +570,7 @@
         }, 
         {
             "key": 27,
-            "name": "Too much",
+            "name": "Walkover",
             "blocks": 7,
             "startAmount": 80,
             "time": 2300,
@@ -590,7 +590,7 @@
         }, 
         {
             "key": 28,
-            "name": "Save your balls",
+            "name": "Peanuts",
             "blocks": 7,
             "startAmount": 30,
             "time": 600,
@@ -610,7 +610,7 @@
         },
         {
             "key": 29,
-            "name": "Let's chill",
+            "name": "Easy As Pie",
             "blocks": 6,
             "startAmount": 100,
             "time": 3000,
@@ -630,7 +630,7 @@
         },
         {
             "key": 30,
-            "name": "Here we go again",
+            "name": "Hand Tied Behind Your Back",
             "blocks": 7,
             "startAmount": 60,
             "time": 600,
