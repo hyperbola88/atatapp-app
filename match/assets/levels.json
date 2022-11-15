@@ -2,7 +2,7 @@
     "levels": [
         {
             "key": 1,
-            "name": "Finish tutorial",
+            "name": "Tutorial",
             "blocks": 2,
             "startAmount": 100,
             "time": 7000,
@@ -118,7 +118,7 @@
         },
         {
             "key": 8,
-            "name": "Shooting Fish In A Barrel",
+            "name": "Ridiculously Easy",
             "blocks": 5,
             "startAmount": 70,
             "time": 1800,
