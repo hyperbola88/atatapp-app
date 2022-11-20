@@ -1,9 +1,16 @@
 const games = [
   {
+    icon: "game7",
+    title: "Emojigeddon",
+    description: "Save you heart",
+    descriptionFull: "Fully designed, developed and released game. Released exclusively on CrazyGames.com",
+    link: "https://www.crazygames.com/game/emojigeddon"
+  },
+  {
     icon: "game0",
     title: "Crab & Fish",
     description: "Physics and Fun!",
-    descriptionFull: "Fully designed, developed and released game. Released on HTML5 game portals, FB instant game is coming soon.",
+    descriptionFull: "Fully designed, developed and released game. Released on HTML5 game portals.",
     link: "https://poki.com/en/g/crab-and-fish"
   },
   {
