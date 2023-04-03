@@ -1,5 +1,5 @@
 # atatapp
-> a web-site for an indy mobile game studio
+> a web-site for an indie mobile game studio
 
 > https://atatapp.games/games
 
